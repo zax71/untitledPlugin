@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: SVL-dev-build
-          path: target/UntitledPlugin-*.*.*.jar
+          path: target/untitledPlugin-*.*.*.jar
