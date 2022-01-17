@@ -1,0 +1,6 @@
+name: UntitledPlugin
+version: '${project.version}'
+main: me.zax71.untitledplugin.untitledPlugin
+api-version: 1.17
+authors: [ Zax71 ]
+description: Untitled Project's custom plugin!

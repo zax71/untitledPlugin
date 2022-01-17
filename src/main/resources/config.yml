@@ -1,0 +1,38 @@
+#    _    _       _   _ _   _          _    _____             __ _
+#   | |  | |     | | (_) | | |        | |  / ____|           / _(_)
+#   | |  | |_ __ | |_ _| |_| | ___  __| | | |     ___  _ __ | |_ _  __ _
+#   | |  | | '_ \| __| | __| |/ _ \/ _` | | |    / _ \| '_ \|  _| |/ _` |
+#   | |__| | | | | |_| | |_| |  __/ (_| | | |___| (_) | | | | | | | (_| |
+#    \____/|_| |_|\__|_|\__|_|\___|\__,_|  \_____\___/|_| |_|_| |_|\__, |
+#                                                                   __/ |
+#                                                                  |___/
+
+
+
+# Worlds that send you to purgatory on death
+purgatory:
+  - "world"
+  - "world_nether"
+  - "world_the_end"
+
+
+# Position you go to when you use a nether portal in world
+worldNetherPortal:
+  enabled: true
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+  world: "dungeons1"
+  titleText: "<green>Change me in config.yml, <gradient:green:blue>uses minimessage formatting</gradient>" # Uses minimessage formatting https://docs.adventure.kyori.net/minimessage#format
+
+
+# Storage for /hub. Can be edited here or in game with /hub set
+hubLocation:
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+  world: world
